@@ -8,12 +8,4 @@ class Chat {
     public String last_name;
     public String type;
 
-    class Message {
-        public int message_id;
-        public From from;
-        public Chat chat;
-        public int date;
-        public String text;
-        public ArrayList<Entity> entities;
-    }
 }
